@@ -34,6 +34,8 @@ async function run() {
       res.json(result)
     })
 
+    
+
     app.post('/destination', async (req, res) => {
         const destinationData = req.body
         console.log(destinationData)
